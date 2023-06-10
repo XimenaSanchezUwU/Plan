@@ -19,7 +19,12 @@ function draw() {
     textSize(80);
     fill(196*i, 13*i, 222*i);
     //ellipse(120*1, 35*i, 20*i, 20);
-    text('¿Cuál es tu plan de vida?', 520, random(350*i,322));
+    text('¿Cuál es tu plan de vida?', 230, random(350*i,322));
+    frameRate(18);
+    textSize(59);
+    fill(24*i, 185*i, 232*i);
+    //ellipse(120*1, 35*i, 20*i, 20);
+    text('¿Cuál es tu plan de vida?', 230, random(350*i,322));
     frameRate(18);
   }
   
